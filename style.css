@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+}
+.navbar{
+    font-family:'Raleway' , sans-serif;
+}
+.nav-item{
+    margin: 20px;
+    color: hsl(243, 87%, 12%);
+    font-size: 16px;
+    font-weight: bold;
+}
+h3{
+   font-family:'Raleway' , sans-serif;
+   font-weight: 700;
+   color: hsl(243, 87%, 12%);
+   font-size: 32px;
+}
+p{
+    color: hsl(243, 87%, 12%);
+    font-size: 16px;
+}
+.productive{
+    background: url(./images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.access{
+    background: hsl(238, 22%, 44%);
+    padding: 40px;
+}
+.access h3,
+.access p{color:#fff;}
+
+footer{
+    background: hsl(243, 87%, 12%);
+}
+footer .container{
+    padding: 40px 0;
+}
+footer .img-fluid{
+    margin-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    transition:.5s ease;
+}
+footer a:hover{
+    color:hsl(0, 0%, 75%);
+}
+.fa-brands{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    transition: .5s ease;
+}
+.fa-brands:hover{
+    color: hsl(224, 93%, 58%);
+}
